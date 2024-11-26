@@ -102,7 +102,7 @@ img{
     margin-bottom: 10px;
 }
 
-button{
+.web-info button{
     padding: 10px 30px;
     border-radius: 13px;
     background-color: #3882f6;
@@ -117,13 +117,14 @@ button{
     display: flex;
     flex-grow: 1;
     justify-content: center;
+    height: 500px;
 }
 
 .mid-container{
-    padding: 30px;
-    padding-bottom: 60px;
-    width: 70%;
+    /* width: 50%; */
+    padding-bottom: 80px;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -145,8 +146,8 @@ button{
 }
 
 .cards > *{
-    width: 130px;
-    height: 180px;
+    width: 160px;
+    height: 225px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -164,11 +165,26 @@ p{
 .article-box{
     background-color: #e5e7eb;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 540px;
+    flex-grow: 1;
+    justify-content: center;
+    height: 500px;
 }
 
 .article {
-    width: 50%;
+    display: flex;
+    width: 41%;
+    /* flex: 1; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article p{
+    font-family: "Light italic";
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.article h3{
+    align-self: flex-end;
 }
