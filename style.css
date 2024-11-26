@@ -6,7 +6,7 @@ body{
     margin:0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 
@@ -115,12 +115,14 @@ button{
 
 .mid-box{
     display: flex;
-    flex: 1;
+    flex-grow: 1;
+    justify-content: center;
 }
 
 .mid-container{
     padding: 30px;
     padding-bottom: 60px;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,6 +157,7 @@ button{
 p{
     margin: 0;
 }
+
 
 /* article //////////////////////*/
 
