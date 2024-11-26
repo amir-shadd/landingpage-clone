@@ -6,6 +6,7 @@ body{
     margin:0;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 
@@ -24,7 +25,7 @@ body{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    gap: 25px;
+    gap: 70px;
 }
 
 
@@ -51,7 +52,7 @@ a{
 
 .logo{
     margin-right: auto;
-    font: 24px;
+    font-size: 26px;
     font-weight: 900;
     color:#F9FaF8 ;
 }
@@ -59,36 +60,112 @@ a{
 
 .header,
 .h-section{
-    width: 70%;
+    width: 60%;
     padding: 10px;
 }
 
 .h-section{
     /* border: 5px solid black ; */
     display: flex;
+    gap: 50px;
+    max-height: 300px;
 }
 
-.web-info,
+.web-info{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
 .img{
     flex: 1;
+    display: flex;
+}
+
+img{
+    width: 100%;
 }
 
 .web-info h1{
-    font-size: 48px;
+    font-size: 60px;
     color: #F9FaF8;
     font-weight: 900;
+    margin:0;
 }
 
 .web-info p{
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 button{
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 13px;
     background-color: #3882f6;
     color: white;
     font-weight: 900;
     font-size: 15px;
+}
+
+/* mid-box styles */
+
+.mid-box{
+    display: flex;
+    flex: 1;
+}
+
+.mid-container{
+    padding: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.cards{
+    display: flex;
+    gap: 50px;
+}
+
+.cards img{
+    /* border: 5px solid red;
+    width: 100px;
+    height: auto; */
+    border: 2px solid blue;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.cards > *{
+    width: 130px;
+    height: 180px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+p{
+    margin: 0;
+}
+
+/* article //////////////////////*/
+
+.article-box{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 540px;
+}
+
+.article {
+    width: 50%;
 }
