@@ -188,3 +188,61 @@ p{
 .article h3{
     align-self: flex-end;
 }
+
+/* sigh-up section  /////////////////////////*/
+
+.sign-up{
+    flex-grow: 1;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    /* flex:1; */
+    width: 55%;
+    height: 100px;
+    padding: 20px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+   
+}
+
+.container h3{
+    margin: 0;
+    color: white;
+}
+.container p{
+    margin: 0;
+    color: white;
+}
+
+
+.container .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container button{
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 15px;
+}
+
+.footer{
+    display: flex;
+    flex-grow: 1;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+}
